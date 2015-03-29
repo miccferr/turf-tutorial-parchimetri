@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset=utf-8 />
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<!-- jquery -->
+	<script src='bower_components/jquery/dist/jquery.min.js'></script>
+	<!-- mapbox -->
+	<script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.6/mapbox.js'></script>
+	<link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.6/mapbox.css' rel='stylesheet' />
+	<!-- bootstrap -->
+	<!-- <script src='bower_components/bootstrap/dist/js/bootstrap.min.js'></script> -->
+	<link href='bower_components/bootstrap/dist/css/bootstrap.min.css' rel='stylesheet' />
+	<!-- leaflet -->
+  <!-- <script src="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.js"></script>
+  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.css" /> -->
+  <!-- turf -->
+  <script src="http://api.tiles.mapbox.com/mapbox.js/plugins/turf/v2.0.0/turf.min.js" /></script>
+  <!-- ominvore -->
+  <script src='script/leaflet-omnivore.min.js'></script>	
+  <!-- topojson -->
+  <!-- <script src="topojson.js"></script> -->
+  <!-- data -->
+  <script src='data/parchimetri.json'></script>	
+  <style type="text/css" media="screen">
+  	body { margin:0; padding:0; }
+  	#map { position:absolute; top:0; bottom:0; width:100%; }
+
+  </style>
+</head>
+<body>
+	<div id='map'></div>
+	<script >
+
+		// Provide your access token: grazie Zedda!
+		L.mapbox.accessToken = 'pk.eyJ1IjoiYW5kcmlhIiwiYSI6InVkRWQtdWMifQ.PptXHNGHheaDE-EM-Lob9g';
+
+		var map = L.map('map').setView([44.4948,11.3441],  16);
+	// Attribution Link
+	mapLink ='<a href="http://openstreetmap.org">OpenStreetMap</a>';
+	L.tileLayer(
+		'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+			attribution: '&copy; ' + mapLink + ' Contributors',
+			maxZoom: 18,
+		}).addTo(map);
+	// definiamo dei layer vuoti
+	var bufferLayer = L.mapbox.featureLayer();
+	var nearest_fc = L.mapbox.featureLayer();
+	var fc
+
+
+
+</script>
+
+
+</body>
+</html>

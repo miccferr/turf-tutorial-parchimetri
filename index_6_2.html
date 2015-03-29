@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset=utf-8 />
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<!-- jquery -->
+	<script src='bower_components/jquery/dist/jquery.min.js'></script>
+	<!-- mapbox -->
+	<script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.6/mapbox.js'></script>
+	<link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.6/mapbox.css' rel='stylesheet' />
+	<!-- bootstrap -->
+	<!-- <script src='bower_components/bootstrap/dist/js/bootstrap.min.js'></script> -->
+	<link href='bower_components/bootstrap/dist/css/bootstrap.min.css' rel='stylesheet' />
+	<!-- leaflet -->
+  <!-- <script src="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.js"></script>
+  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.css" /> -->
+  <!-- turf -->
+  <script src="http://api.tiles.mapbox.com/mapbox.js/plugins/turf/v2.0.0/turf.min.js" /></script>
+  <!-- ominvore -->
+  <script src='script/leaflet-omnivore.min.js'></script>	
+  <!-- topojson -->
+  <!-- <script src="topojson.js"></script> -->
+  <!-- data -->
+  <script src='data/parchimetri.json'></script>	
+  <style type="text/css" media="screen">
+  	body { margin:0; padding:0; }
+  	#map { position:absolute; top:0; bottom:0; width:100%; }
+	 	#attiva-filtro  {
+  		position: absolute;
+  		top: 20px;
+  		right: 10px;
+  		z-index: 1;
+  		background-color:#ffb2c2;
+  		color:#fff;
+  		font-size:1.2em;
+  	}
+  	#attiva-filtro:hover,
+  	#attiva-filtro a:active  {
+  		position: absolute;
+  		top: 20px;
+  		right: 10px;
+  		z-index: 1;
+  		background-color: #ff325e;
+  		color:#fff;
+  		font-size:1.2em;
+  	}
+  	
+
+  </style>
+</head>
+<body>
+	<div id='map'></div>
+	<a id='attiva-filtro' type="button" class="btn btn-default">Filtro</a>
+
+	<script >
+
+		// Provide your access token: grazie Zedda!
+		L.mapbox.accessToken = 'pk.eyJ1IjoiYW5kcmlhIiwiYSI6InVkRWQtdWMifQ.PptXHNGHheaDE-EM-Lob9g';
+
+		var map = L.map('map').setView([44.4948,11.3441],  16);
+	// Attribution Link
+	mapLink ='<a href="http://openstreetmap.org">OpenStreetMap</a>';
+	L.tileLayer(
+		'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+			attribution: '&copy; ' + mapLink + ' Contributors',
+			maxZoom: 18,
+		}).addTo(map);
+	// definiamo dei layer vuoti
+	var bufferLayer = L.mapbox.featureLayer();
+	var nearest_fc = L.mapbox.featureLayer();
+	var fc
+
+    // creo un marker
+    var marker = L.marker(new L.LatLng( 44.49528086931113,11.347181797027588), {
+    	icon: L.mapbox.marker.icon({
+    		'marker-color': 'ff8888',
+    		'marker-symbol':'pitch'
+
+    	}),
+    	draggable:'true'
+    });
+
+     // carico i dati
+	var rastrelliere = omnivore.kml('data/rastrelliere.kml').addTo(map);
+
+    // Buffer dinamico attorno al marker
+  function pointBuffer (pt, radius, units, resolution) {
+    var ring = []
+    var resMultiple = 360/resolution;
+    for(var i  = 0; i < resolution; i++) {
+      var spoke = turf.destination(pt, radius, i*resMultiple, units);
+      ring.push(spoke.geometry.coordinates);
+    }
+    if((ring[0][0] !== ring[ring.length-1][0]) && (ring[0][1] != ring[ring.length-1][1])) {
+      ring.push([ring[0][0], ring[0][1]]);
+    }
+    return turf.polygon([ring])
+  }
+  
+  // get position, draw buffer, find within, find nearest, add to map
+  function updateVenues(fc){
+    // converto in GeoJSON il livello
+    fc= fc.toGeoJSON()
+
+    // prendo la posizione
+    var position=marker.getLatLng();
+    // creo un oggetto turf con la posizione
+    var point=turf.point([position.lng, position.lat]);
+    // calcolo un buffer attorno al punto
+    var  buffer = pointBuffer(point, 1, 'kilometers', 120);
+    buffer.properties = {
+      "fill": "#00704A",
+      "fill-opacity":0.1,
+      "stroke": "#00704A",
+      "stroke-width": 2,
+      "stroke-opacity": 0.5
+    };
+    // creo il livello con il buffer
+    bufferLayer.setGeoJSON(buffer);
+
+    // filtro le features (rastrelliere delle biciclette)
+    var within = turf.featurecollection(fc.features.filter(function (shop){
+      if (turf.distance(shop, point, 'kilometers') <= 1) return true;
+    }) 
+    );
+
+    // coloro le features
+    within.features.forEach(function(feature){
+      feature.properties["marker-color"] = "C73E3E";
+      feature.properties["title"] = '<br>'+feature.properties["name"]+'<br>Bikes: '+feature.properties["nbBikes"]+'<br>Empty Docks: '+feature.properties["nbEmptyDocks"];
+      feature.properties["marker-size"] = "small";
+      feature.properties["marker-symbol"] = "bicycle";
+    });
+
+    // calcolo la feature più vicina
+    nearest = turf.nearest(point, within);
+    // coloro la feature più vicina
+    nearest.properties["marker-color"] = "3ad78d";
+    nearest.properties["title"] = '<br>'+nearest.properties["name"]+'<br>Bikes: '+nearest.properties["nbBikes"]+'<br>Empty Docks: '+nearest.properties["nbEmptyDocks"];
+    nearest.properties["marker-size"] = "large";
+    nearest.properties["marker-symbol"] = "bicycle";
+
+    // creo un unica collezione di feature colorate (la più vicina + le rimanenti)
+    nearest_fc.setGeoJSON(turf.featurecollection([within, nearest])).addTo(map);
+  };
+
+</script>
+
+
+</body>
+</html>
