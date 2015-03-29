@@ -9,7 +9,7 @@
 
 #Step 1 - Prepariamo la pagina
 
-Scaricare il [**template**](https://gist.github.com/miccferr/6cb8e5df06652c534b2f)
+Scaricare il [**template**](https://gist.github.com/miccferr/e05ce29311841d048b06)
 
 Per prima cosa andiamo a caricare le librerie  (file con estensione .js), insieme con il relativo foglio di stile (estensione .css).  
 Per fare questo aggiungiamo i link agli scripts necessari in fondo al file, ma prima della chiusura del ```body``` (cioè prima del tag ```</body>```) :
