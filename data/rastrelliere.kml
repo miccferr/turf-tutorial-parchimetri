@@ -1,0 +1,1467 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>Rastrelliere Biciclette</name>
+		<Style id='Style2-point-1'>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/grn-circle.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<Style id='Style2-point-1-hover'>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/grn-circle.png</href>
+				</Icon>
+			</IconStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='Style2-point-1-map'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#Style2-point-1</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#Style2-point-1-hover</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='Style2-line-2'>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>800000ff</color>
+				<width>2</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<Style id='Style2-line-2-hover'>
+			<LineStyle>
+				<color>800000ff</color>
+				<width>2</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='Style2-line-2-map'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#Style2-line-2</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#Style2-line-2-hover</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='Style2-polygon-3'>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff666666</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>7f0000ff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<Style id='Style2-polygon-3-hover'>
+			<LineStyle>
+				<color>ff666666</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>7f0000ff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='Style2-polygon-3-map'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#Style2-polygon-3</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#Style2-polygon-3-hover</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Placemark>
+			<name>4 Novembre, 10</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>4 Novembre, 10</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.341356,44.493782,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>12 giugno, 3</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>12 giugno, 3</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.344264,44.48761,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Abbadia, 6</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Abbadia, 6</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.334211,44.497208,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Albari, 5</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Albari, 5</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.344698,44.495796,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Aldrovandi, 4 e 6C, 10 e 12</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Aldrovandi, 4 e 6C, 10 e 12</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.351701,44.493195,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Amendola, 14</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Amendola, 14</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.341408,44.505165,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Arienti angolo via Rubbiani</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Arienti angolo via Rubbiani</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.345283,44.487728,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Artieri, 1</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Artieri, 1</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.344556,44.494251,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Azzarita, 7/g</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Azzarita, 7/g</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.332961,44.498821,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Battistelli, 2</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Battistelli, 2</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.330085,44.49966,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Belle arti, 11/13</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Belle arti, 11/13</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.349051,44.497646,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Belle arti, 56</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Belle arti, 56</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.353324,44.497662,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Bibiena, 1</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Bibiena, 1</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.35095,44.496094,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Via Brugnoli, 6</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Via Brugnoli, 6</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.334364,44.499184,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Largo Caduti del Lavoro, 2</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Largo Caduti del Lavoro, 2</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.338808,44.500072,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Calari, 4</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Calari, 4</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.328768,44.494785,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Calderini, 1</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Calderini, 1</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.344883,44.491341,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Calori, 8</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Calori, 8</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.331067,44.500408,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Capramozza, 15</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Capramozza, 15</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.336217,44.489449,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Carducci, 1</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Carducci, 1</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.356905,44.487801,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Zanolini, 2</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Zanolini, 2</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.358495,44.495327,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Zamboni, 35</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Zamboni, 35</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.352868,44.496811,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Senzanome, 3</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Senzanome, 3</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.335882,44.491699,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Torleone, 11</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Torleone, 11</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.355668,44.491714,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Terribilia, 1</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Terribilia, 1</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.340573,44.494606,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Selmi, 3</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Selmi, 3</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.353858,44.495697,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Ugo Bassi 2, 10</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Ugo Bassi 2, 10</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.341796,44.4949,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Ugo Bassi, 14</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Ugo Bassi, 14</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.337365,44.49564,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Trombetti 1</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Trombetti 1</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.351696,44.496338,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Scaravilli, 2</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Scaravilli, 2</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.352316,44.49712,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Respighi, 1</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Respighi, 1</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.350468,44.497093,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Riccio, 2</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Riccio, 2</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.370423,44.499908,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Righi, 10</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Righi, 10</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.344783,44.499054,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Riva Reno, 13</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Riva Reno, 13</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.332403,44.49839,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Riva Reno, 126</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Riva Reno, 126</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.342045,44.498878,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Rossini Piazza, 4</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Rossini Piazza, 4</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.348665,44.495338,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>S. Giuseppe, 5</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>S. Giuseppe, 5</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.343153,44.500156,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>S. Giovanni in Monte, 1</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>S. Giovanni in Monte, 1</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.348,44.490833,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>S.Domenico, 1</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>S.Domenico, 1</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.343773,44.490032,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>S.Martino, 1</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>S.Martino, 1</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.346171,44.496639,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Saragozza, 7</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Saragozza, 7</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.336936,44.490383,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Saragozza, 24</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Saragozza, 24</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.335061,44.490063,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Cartoleria, 20</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Cartoleria, 20</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.349092,44.489605,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Castelfidardo, 8</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Castelfidardo, 8</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.337751,44.488598,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Castiglione, 40</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Castiglione, 40</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.347887,44.488289,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Cavour, 1 e 4</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Cavour, 1 e 4</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.344092,44.491268,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Celestini, 2 e 4</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Celestini, 2 e 4</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.341648,44.492268,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Dei Mille, 5</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Dei Mille, 5</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.343759,44.501419,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Don Minzoni, 17 ang. Pietramellara</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Don Minzoni, 17 ang. Pietramellara</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.335279,44.503296,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Foscherari, 2</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Foscherari, 2</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.34421,44.492638,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Foscolo, 7</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Foscolo, 7</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.33001,44.491932,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Mentana, 10</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Mentana, 10</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.347568,44.497932,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Milazzo, 8</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Milazzo, 8</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.340331,44.503532,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Mirasole, 11</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Mirasole, 11</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.340987,44.487392,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Montebello, 6</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Montebello, 6</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.342453,44.501972,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Musei, 8</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Musei, 8</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.344136,44.493153,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Oleari, 4</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Oleari, 4</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.34112,44.495544,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Pignattari, 3</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Pignattari, 3</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.342703,44.493252,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Palazzo d'Accursio, cortile interno</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Palazzo d'Accursio, cortile interno</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.341324,44.494087,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Oro, ang. Chiudare</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Oro, ang. Chiudare</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.346525,44.486423,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Piazza Porta Castiglione, 14</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Piazza Porta Castiglione, 14</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.348802,44.484909,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Porta Lame, presso l'edicola</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Porta Lame, presso l'edicola</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.33357,44.502216,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Palazzo d'Accursio</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Palazzo d'Accursio</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.341254,44.494781,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Rizzoli, 38-40</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Rizzoli, 38-40</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.346179,44.494297,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Porta Ravegnana, fianco chiesa</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Porta Ravegnana, fianco chiesa</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.346946,44.494175,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Piazza Porta S. Donato, 2 e 5</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Piazza Porta S. Donato, 2 e 5</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.356189,44.498455,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Porta S. Felice, 3</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Porta S. Felice, 3</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.327341,44.499012,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Porta S. Mamolo, 1</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Porta S. Mamolo, 1</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.33981,44.486614,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Porta S. Stefano, 4</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Porta S. Stefano, 4</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.356063,44.484741,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Porta S. Vitale, 3</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Porta S. Vitale, 3</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.356734,44.493786,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Porta S. Isaia (V.le Vicini, 2)</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Porta S. Isaia (V.le Vicini, 2)</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.32802,44.494972,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Pratello, 19</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Pratello, 19</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.334904,44.495579,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Pratello, 25 e 35</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Pratello, 25 e 35</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.333103,44.495537,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Pratello, 100</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Pratello, 100</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.328935,44.495399,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Pratello, 90/a e 96/f</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Pratello, 90/a e 96/f</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.329871,44.495464,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Puntoni, 2</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Puntoni, 2</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.353278,44.497173,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Remorsella, 15</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Remorsella, 15</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.352505,44.488178,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>S. Felice, 1</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>S. Felice, 1</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.33689,44.495907,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>S. Felice, 11</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>S. Felice, 11</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.335994,44.496212,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>S. Felice, 26</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>S. Felice, 26</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.334237,44.496807,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>S. Felice, 39, angolo via Riva Reno</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>S. Felice, 39, angolo via Riva Reno</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.331212,44.497887,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>S.Vitale, 59</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>S.Vitale, 59</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.353901,44.494045,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>S.Vitale, 63</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>S.Vitale, 63</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.354625,44.494011,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>S.Vitale, 83</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>S.Vitale, 83</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.356233,44.494068,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>S.Vitale, 67</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>S.Vitale, 67</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.354842,44.494087,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Tribunali (Piazza), 2 e 6</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Tribunali (Piazza), 2 e 6</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.343785,44.488361,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>S. Stefano, 30</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>S. Stefano, 30</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.349357,44.491009,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>S. Stefano, 100/2</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>S. Stefano, 100/2</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.35332,44.486923,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>S. Stefano, 119 e 119/2</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>S. Stefano, 119 e 119/2</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.354618,44.485813,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Galvani, 5 (Piazza)</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Galvani, 5 (Piazza)</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.343177,44.492126,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Irnerio, 48 e 57</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Irnerio, 48 e 57</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.355186,44.49852,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Marconi, 67 e 69</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Marconi, 67 e 69</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.339371,44.500687,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Martiri 1943-45 (P.za), 11</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Martiri 1943-45 (P.za), 11</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.340551,44.502163,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Monte Grappa, 3,</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Monte Grappa, 3,</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.341876,44.495537,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Monte Grappa, 8, 9 e 10</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Monte Grappa, 8, 9 e 10</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.340798,44.495686,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Oberdan, 7 e 9</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Oberdan, 7 e 9</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.346176,44.497463,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Oberdan, 24/h</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Oberdan, 24/h</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.346004,44.496849,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Oche, 2</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Oche, 2</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.345173,44.498035,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Indipendenza, 40</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Indipendenza, 40</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.343663,44.498917,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Indipendenza, 22</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Indipendenza, 22</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.343266,44.497356,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Manzoni angolo Indipendenza</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Manzoni angolo Indipendenza</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.34289,44.496323,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Re Enzo, 1</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Re Enzo, 1</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.343899,44.494469,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Nosadella 49/2</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Nosadella 49/2</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.334672,44.491089,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Brugnoli, 6</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Brugnoli, 6</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.334887,44.498493,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Belvedere, 6</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Belvedere, 6</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.338052,44.496407,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Boldrini, 13 (ang. Pietramellara)</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Boldrini, 13 (ang. Pietramellara)</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.338481,44.5051,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Azzo Gardino, 65</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Azzo Gardino, 65</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.334457,44.50206,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>4 Novembre, 16</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>4 Novembre, 16</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.341034,44.49382,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>20 Settembre, 1,2,6 e 7</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>20 Settembre, 1,2,6 e 7</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.344435,44.503567,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>D'Azeglio, 53 (ang. Castelfidardo)</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>D'Azeglio, 53 (ang. Castelfidardo)</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.339747,44.488567,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Del Guasto, 7</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Del Guasto, 7</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.351087,44.496513,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Del Porto, 5/4 (ang. Marconi)</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Del Porto, 5/4 (ang. Marconi)</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.339715,44.501335,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Don Minzoni, 14 (MamBO)</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Don Minzoni, 14 (MamBO)</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.336732,44.502796,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Don Minzoni, 15 (Ipsia Fioravanti)</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Don Minzoni, 15 (Ipsia Fioravanti)</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.337086,44.50285,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Foscolo, 2</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Foscolo, 2</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.331099,44.49176,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>piazza Galileo, 6</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>piazza Galileo, 6</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.340541,44.493114,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Galliera, 93</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Galliera, 93</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.344532,44.503952,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Goito, 2</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Goito, 2</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.343223,44.497101,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Goito, 13</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Goito, 13</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.345111,44.496819,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Gramsci, 12</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Gramsci, 12</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.344199,44.503952,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Gramsci, 4 (ang. Milazzo)</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Gramsci, 4 (ang. Milazzo)</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.340626,44.502491,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Lame, 33</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Lame, 33</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.336335,44.497738,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Lame, 50 (ang. Riva di Reno)</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Lame, 50 (ang. Riva di Reno)</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.335745,44.498482,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Lame, 59</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Lame, 59</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.335316,44.499115,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Largo Respighi, 1</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Largo Respighi, 1</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.350454,44.496498,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Malpighi, 6</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Malpighi, 6</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.336786,44.495327,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Malpighi, 17-19</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Malpighi, 17-19</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.33611,44.494011,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Mascarella, 45 (ang. Irnerio)</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Mascarella, 45 (ang. Irnerio)</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.3504,44.499626,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Massei, 1</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Massei, 1</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.343856,44.492626,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Miramonte, 17</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Miramonte, 17</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.342107,44.487,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Mura di Porta Galliera, 1</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Mura di Porta Galliera, 1</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.349789,44.503101,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Trombetti, 4</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Trombetti, 4</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.352782,44.49604,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Piazza del Francia, 3</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Piazza del Francia, 3</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.346066,44.492172,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Piazza Minghetti</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>Piazza Minghetti</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.345401,44.491661,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>via Pietralata 55/2</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>via Pietralata 55/2</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.33126,44.496105,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>S.Petronio Vecchio 1/2</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="infoWindowText">
+<b>Rastrelliera:</b>
+<br>
+<b>S.Petronio Vecchio 1/2</b> 
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>11.351388,44.490459,0.0</coordinates></Point></Placemark>
+	</Document>
+</kml>

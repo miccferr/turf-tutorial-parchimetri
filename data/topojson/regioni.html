@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Topojson Italia</title>
+	<meta charset="utf-8" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.css" />
+<!--[if lte IE 8]>
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.ie.css" />
+<![endif]-->
+
+<script src="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.js"></script>
+	<style>
+		#map {
+		position:fixed;
+		top:0;bottom:0;right:0;left:0;
+		}
+	</style>
+</head>
+<body>
+	<div id="map"></div>
+	<script src="topojson.js"></script>
+
+<script type="text/javascript">
+//https://code.google.com/p/microajax/
+function microAjax(B,A){this.bindFunction=function(E,D){return function(){return E.apply(D,[D])}};this.stateChange=function(D){if(this.request.readyState==4){this.callbackFunction(this.request.responseText)}};this.getRequest=function(){if(window.ActiveXObject){return new ActiveXObject("Microsoft.XMLHTTP")}else{if(window.XMLHttpRequest){return new XMLHttpRequest()}}return false};this.postBody=(arguments[2]||"");this.callbackFunction=A;this.url=B;this.request=this.getRequest();if(this.request){var C=this.request;C.onreadystatechange=this.bindFunction(this.stateChange,this);if(this.postBody!==""){C.open("POST",B,true);C.setRequestHeader("X-Requested-With","XMLHttpRequest"); C.setRequestHeader("Content-type","application/x-www-form-urlencoded");C.setRequestHeader("Connection","close")}else{C.open("GET",B,true)}C.send(this.postBody)}};
+</script>
+
+	<script type="text/javascript">
+
+var jsonlayer = L.geoJson(null, {
+        style: {
+            color: '#666',
+            weight: 1,
+            opacity: 1,
+            fillOpacity: 0.3
+        }
+    }),
+    map = L.map('map');
+
+L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+}).addTo(map);
+
+map
+    .addLayer(jsonlayer)
+    .setView([42.074,14.095], 6);
+
+microAjax('regioni.topojson',function (res) { 
+var feat=JSON.parse(res);
+    var county_geojson = topojson.feature(feat, feat.objects.regioni);
+    jsonlayer.addData(county_geojson);
+ } );
+	</script>
+</body>
+</html>
